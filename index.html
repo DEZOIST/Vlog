@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="material//geek.ico">
+    <title></title>
+
+    <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.2/css/mdui.min.css">
+    <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.2/js/mdui.min.js"></script>
+
+    <link href="material/css&js/mdui.css" rel="stylesheet">
+    <script src="material/css&js/mdui.js"></script>
+    <script scr="material/css&js/JQuery-3.4.1.min.js"></script>
+
+</head>
+
+<body style="background-color: silver;" class="mdui-theme-primary-deep-indigo mdui-bottom-nav-fixed mdui-theme-accent-deep-purple ">
+
+
+
+    <div class="mdui-toolbar mdui-color-indigo">
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-hidden-sm-up"><i class="mdui-icon material-icons">menu</i></a>
+        <a href="javascript:;" class="mdui-typo-title">Vlog</a>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href=" " class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
+        <a mdui-dialog="{target: '#about'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+    </div>
+
+
+
+    <div class=" mdui-container" style="background-color: snow">
+        <div style="width: auto; height:10px"></div>
+
+        <div class="mdui-card">
+
+            <div id="D1">
+                <div class="mdui-card-media">
+                    <video class="mdui-video-fluid" controls>
+                    <source src="material/day1.mp4" type="video/mp4">
+                </video>
+                </div>
+
+                <div class="mdui-card-primary">
+                    <div class="mdui-card-primary-title">DAY 1</div>
+                    <div class="mdui-card-primary-subtitle">TO DYG</div>
+                </div>
+
+                <div class="mdui-card-content">（可添加介绍）</div>
+            </div>
+
+            <div id="D2">
+                <div class="mdui-card-media">
+                    <video class="mdui-video-fluid" controls>
+                            <source src="material/day2.mp4" type="video/mp4">
+                        </video>
+                </div>
+
+                <div class="mdui-card-primary">
+                    <div class="mdui-card-primary-title">DAY 2</div>
+                    <div class="mdui-card-primary-subtitle">MOUNT TIANMEN&SHOWS</div>
+                </div>
+
+                <div class="mdui-card-content">（可添加介绍）</div>
+            </div>
+
+            <div class="mdui-tab mdui-tab-full-width" mdui-tab>
+
+                <a href="#D1" class="mdui-btn mdui-ripple mdui-tab-active">DAY 1</a>
+                <a href="#D2" class="mdui-btn mdui-ripple">DAY 2</a>
+
+            </div>
+
+        </div>
+
+        <div style="width: auto; height:10px"></div>
+    </div>
+
+
+
+    <div class="mdui-dialog" id="about">
+        <div class="mdui-dialog-title">Copyright (c) 2019 江苏省南通中学极客社</div>
+        <div class="mdui-dialog-content">制作人员：
+            <a href="https://github.com/EG01STAL" class="mdui-btn" target="_blank"><del>@熬夜爆肝的LMJ</del></a>
+        </div>
+        <div class="mdui-dialog-actions">
+            <a class="mdui-btn mdui-ripple " mdui-dialog-close>close</a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
